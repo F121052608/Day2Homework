@@ -16,7 +16,7 @@ namespace MvcLoginRegistration.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            string a = "123";
             return View();
         }
 
